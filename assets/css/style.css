@@ -1,3 +1,63 @@
+:root {
+  --indigo-50: #f3f1ff;
+  --indigo-100: #ebe6ff;
+  --indigo-200: #d8d0ff;
+  --indigo-300: #bcabff;
+  --indigo-400: #9b7bff;
+  --indigo-500: #7d46ff;
+  --indigo-600: #7121ff;
+  --indigo-700: #6610f2;
+  --indigo-800: #550ccb;
+  --indigo-900: #470ca6;
+  --indigo-950: #290471;
+}
+
+/* Colores de fondo */
+.bg-indigo-50 {
+  background-color: var(--indigo-50);
+}
+
+.bg-indigo-100 {
+  background-color: var(--indigo-100);
+}
+
+.bg-indigo-200 {
+  background-color: var(--indigo-200);
+}
+
+.bg-indigo-300 {
+  background-color: var(--indigo-300);
+}
+
+.bg-indigo-400 {
+  background-color: var(--indigo-400);
+}
+
+.bg-indigo-500 {
+  background-color: var(--indigo-500);
+}
+
+.bg-indigo-600 {
+  background-color: var(--indigo-600);
+}
+
+.bg-indigo-700 {
+  background-color: var(--indigo-700);
+}
+
+.bg-indigo-800 {
+  background-color: var(--indigo-800);
+}
+
+.bg-indigo-900 {
+  background-color: var(--indigo-900);
+}
+
+.bg-indigo-950 {
+  background-color: var(--indigo-950);
+}
+
+
 /* Banner */
 .banner {
   background: linear-gradient(120deg, #003366, #0055aa);
@@ -46,14 +106,13 @@
 
 /* Footer */
 .footer {
-  background-color: #00264d;
   color: white;
   text-align: center;
   padding: 20px;
 }
 
 .footer a {
-  color: #ffcc00;
+  color: yellow;
   text-decoration: none;
 }
 
@@ -64,24 +123,51 @@
 
 /* Animaciones */
 @keyframes fadeIn {
-  from { opacity: 0; }
-  to { opacity: 1; }
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
 }
 
 @keyframes slideDown {
-  from { transform: translateY(-30px); opacity: 0; }
-  to { transform: translateY(0); opacity: 1; }
+  from {
+    transform: translateY(-30px);
+    opacity: 0;
+  }
+
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
 }
 
 @keyframes pulse {
-  0% { transform: scale(1); }
-  50% { transform: scale(1.05); }
-  100% { transform: scale(1); }
+  0% {
+    transform: scale(1);
+  }
+
+  50% {
+    transform: scale(1.05);
+  }
+
+  100% {
+    transform: scale(1);
+  }
 }
 
 @keyframes slideUp {
-  from { transform: translateY(30px); opacity: 0; }
-  to { transform: translateY(0); opacity: 1; }
+  from {
+    transform: translateY(30px);
+    opacity: 0;
+  }
+
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
 }
 
 /* Clases utilitarias */
