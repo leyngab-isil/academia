@@ -1,0 +1,6 @@
+.nav-link:hover{
+    scale: calc(1.1);
+    box-shadow: 3px 1px 14px 0px var(--azul-400);
+    border-radius: 10px;
+    transition: all 0.5s ease;
+}

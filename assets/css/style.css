@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,100..900;1,100..900&family=Peralta&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+
 :root{
   --azul-50: #e8f5ff;
   --azul-100: #d5ecff;
@@ -10,6 +12,12 @@
   --azul-800: #063bcd;
   --azul-900: #10399f;
   --azul-950: #0a205c;
+}
+
+*{
+ font-family: "Roboto Condensed", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
 }
 
 /* Color de fondos */
@@ -106,14 +114,13 @@
 
 /* Footer */
 .footer {
-  background-color: #00264d;
   color: white;
   text-align: center;
   padding: 20px;
 }
 
 .footer a {
-  color: #ffcc00;
+  color: #57d4a2;
   text-decoration: none;
 }
 
