@@ -1,52 +1,17 @@
-/* Banner */
-.banner {
-  background: linear-gradient(120deg, #003366, #0055aa);
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+  font-family: "Noto Serif", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
 }
 
-.banner h2 {
-  font-size: 2.5em;
-  font-weight: bold;
-}
-
-.banner p {
-  font-size: 1.2em;
-}
-
-/* Hero */
-.hero-img {
-  height: 450px;
-  object-fit: cover;
-  filter: brightness(70%);
-}
-
-.hero-text h1 {
-  font-size: 3em;
-  font-weight: bold;
-}
-
-.hero-text p {
-  font-size: 1.2em;
-}
-
-/* Cursos */
-.courses .card {
-  transition: transform 0.3s ease;
-}
-
-.courses .card:hover {
-  transform: translateY(-5px);
-}
-
-/* Testimonios */
-.testimonials blockquote {
-  font-style: italic;
-  margin: 20px auto;
-  max-width: 600px;
-}
 
 /* Footer */
 .footer {
-  background-color: #00264d;
+  background-color: var(--bs-indigo);
   color: white;
   text-align: center;
   padding: 20px;
@@ -61,58 +26,21 @@
   text-decoration: underline;
 }
 
-
-/* Animaciones */
-@keyframes fadeIn {
-  from { opacity: 0; }
-  to { opacity: 1; }
+.bg-indigo-100{
+  background-color: #ebe6ff;
 }
 
-@keyframes slideDown {
-  from { transform: translateY(-30px); opacity: 0; }
-  to { transform: translateY(0); opacity: 1; }
+.bg-indigo-200{
+  background-color: #d8d0ff;
 }
 
-@keyframes pulse {
-  0% { transform: scale(1); }
-  50% { transform: scale(1.05); }
-  100% { transform: scale(1); }
+.bg-indigo-400{
+  background-color: #9b7bff;
+  color: white;
 }
 
-@keyframes slideUp {
-  from { transform: translateY(30px); opacity: 0; }
-  to { transform: translateY(0); opacity: 1; }
+.bg-indigo-500{
+  background-color: #7d46ff;
+  color: white;
 }
 
-/* Clases utilitarias */
-.animate-fade {
-  animation: fadeIn 2s ease-in-out;
-}
-
-.animate-slide {
-  animation: slideDown 1.5s ease;
-}
-
-.animate-pulse {
-  animation: pulse 2s infinite;
-}
-
-.animate-up {
-  animation: slideUp 1.5s ease;
-}
-
-/* Hero */
-.hero-img {
-  height: 450px;
-  object-fit: cover;
-  filter: brightness(70%);
-}
-
-.hero-text h1 {
-  font-size: 3em;
-  font-weight: bold;
-}
-
-.hero-text p {
-  font-size: 1.2em;
-}

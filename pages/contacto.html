@@ -10,46 +10,66 @@
     <link rel="stylesheet" href="../assets/bootstrap/css/bootstrap.rtl.min.css">
     <link rel="stylesheet" href="../assets/bootstrap/css/bootstrap.min.css.map">
     <link rel="stylesheet" href="../assets/bootstrap/css/bootstrap.rtl.min.css.map">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link
+        rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
 </head>
 
 <body>
     <!-- Menú -->
     <div id="menu-container"></div>
 
-    <!-- titulo -->
-    <div class="container mt-5">
-        <h1 class="text-center">Contáctanos</h1>
-    </div>
 
-    <hr>
-
-    <div class="container my-5 text-center">
-        <h3>Redes sociales</h3>
-        <div class="btn-group">
-            <a href="https://www.whatsapp.com/?lang=es" target="_blank" class="btn btn-success">Whatsapp</a>
-            <a href="https://www.facebook.com/?locale=es_LA" target="_blank" class="btn btn-primary">Facebook</a>
-            <a href="mailto:prueba@gmail.com" class="btn btn-secondary">Correo</a>
+    <section id="contacto" class="container row my-5">
+        <div class=" col-6">
+            <h1 class="text-center animate__animated animate__backInRight">Contáctanos</h1>
+            <p>
+                Cualquier información que desea solictar puede enviarnos un mensaje mediante el formulario.
+            </p>
         </div>
-    </div>
+        <div class="col-6">
+            <h3 class="text-center text-white">Escribenos para ayudarte!!</h3>
+            <form>
+                <div class="mb-3">
+                    <label for="exampleFormControlInput1" class="form-label text-white">Ingresar dirección
+                        electronica</label>
+                    <input type="email" class="form-control" id="exampleFormControlInput1"
+                        placeholder="name@example.com">
+                </div>
+                <div class="mb-3">
+                    <label for="exampleFormControlTextarea1" class="form-label text-white">Ingresar mensaje</label>
+                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                </div>
+                <div class="mb-3 d-grid gap-2 col-6 mx-auto">
+                    <button class="btn btn-info">Enviar</button>
+                </div>
+            </form>
+        </div>
+    </section>
 
-    <hr>
-
-    <div class="container my-5 bg-dark p-5">
-        <h3 class="text-center text-white">Escribenos para ayudarte!!</h3>
-        <form>
-            <div class="mb-3">
-                <label for="exampleFormControlInput1" class="form-label text-white">Ingresar dirección electronica</label>
-                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+    <section class="p-5 row bg-indigo-400">
+        <div class="col-6 animate__animated animate__backInRight">
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3901.269258046721!2d-77.05547922517395!3d-12.093710288146761!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9105c9aa6b702e0f%3A0x55c71153c8c3bda4!2sISIL%20-%20San%20Isidro!5e0!3m2!1ses-419!2spe!4v1782178001419!5m2!1ses-419!2spe"
+                width="600" height="350" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+        <div class="col-6 d-flex flex-column justify-content-center">
+            <h2>Conoce nuestras sedes</h2>
+            <div>
+                <p>Conoce nuestras siguientes sedes:</p>
+                <ul>
+                    <li><b><i class="fa-solid fa-location-dot"></i> Sede Miraflores: </b> Av. ....</li>
+                    <li><b><i class="fa-solid fa-location-dot"></i> Sede San Isidro: </b> Av. ....</li>
+                    <li><b><i class="fa-solid fa-location-dot"></i> Sede La Molina: </b> Av. ....</li>
+                </ul>
             </div>
-            <div class="mb-3">
-                <label for="exampleFormControlTextarea1" class="form-label text-white">Ingresar mensaje</label>
-                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-            </div>
-            <div class="mb-3 d-grid gap-2 col-6 mx-auto">
-                <button class="btn btn-info">Enviar</button>
-            </div>
-        </form>
-    </div>
+        </div>
+    </section>
 
 
     <!-- Footer -->
