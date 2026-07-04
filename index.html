@@ -1,82 +1,169 @@
 <!DOCTYPE html>
 <html lang="es">
-<head>
-  <meta charset="UTF-8">
-  <title>Academia Ficticia - Inicio</title>
-  <link rel="stylesheet" href="assets/css/menu.css">
-  <link rel="stylesheet" href="assets/css/style.css">
-  <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
-  <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.rtl.min.css">
-  <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css.map">
-  <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.rtl.min.css.map">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
-        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+<head id="head">
+  <script src="assets/js/head.js"></script>
 </head>
+
 <body>
   <!-- Menú -->
-  <div id="menu-container" data-path="../components/menu.html"></div>
+  <div id="menu-container" class="sticky-top"></div>
 
-  <!-- Banner -->
-  <section class="banner text-center text-white">
+  <section id="inicio">
+    <div class="container pt-5">
+      <h2 class="text-center">Historia</h2>
+      <div class="row mt-5">
+        <div class="col-6">
+          <h4>Formando profesionales para un futuro sin límites</h3>
+            <p>
+              En Nova Academy creemos que la educación transforma vidas. Desde nuestros inicios,
+              nuestro propósito ha sido brindar una formación de calidad que combine conocimientos,
+              práctica y desarrollo personal.
+            </p>
+            <p>
+              Nuestro equipo está conformado por profesionales apasionados por la enseñanza, comprometidos con
+              acompañar a cada estudiante durante su proceso de aprendizaje. Más que impartir clases, buscamos
+              desarrollar habilidades que permitan afrontar los desafíos del mundo actual con confianza y preparación.
+            </p>
+            <p>
+              Cada curso está diseñado para ofrecer una experiencia dinámica, cercana y orientada a
+              resultados, fomentando el pensamiento crítico, la innovación y el aprendizaje continuo.</p>
+            </p>
+        </div>
+        <div class="col-6 text-center">
+          <img class="shadow p-3 mb-5 bg-body rounded animate__animated animate__bounceIn" 
+            src="img/historia.jpg" alt="historia academia" width="500">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="logros" class="bg-indigo-100">
     <div class="container py-5">
-      <h2 class="animate-slide">🎓 Inscripciones Abiertas 2026</h2>
-      <p class="animate-fade">Transforma tu futuro con nuestros programas de tecnología y ciencia.</p>
-      <a href="/pages/admision.html" class="btn btn-warning animate-pulse">Inscríbete Ahora</a>
-    </div>
-  </section>
-
-  <!-- Hero -->
-  <section class="hero position-relative text-center text-white">
-    <img src="img/isil.webp" class="img-fluid w-100 hero-img" alt="Estudiantes en clase">
-    <div class="hero-text position-absolute top-50 start-50 translate-middle animate-fade">
-      <h1>Academia Ficticia</h1>
-      <p>Educación moderna, accesible y de calidad.</p>
-      <a href="/pages/cursos.html" class="btn btn-warning animate-pulse">Ver Cursos</a>
-    </div>
-  </section>
-
-  <!-- Sobre Nosotros -->
-  <section class="about py-5 bg-light text-center">
-    <div class="container">
-      <h2 class="animate-slide">Sobre Nosotros</h2>
-      <p>Somos una institución ficticia dedicada a formar estudiantes en programación, diseño y ciencia de datos. 
-         Con más de 10 años de experiencia, hemos graduado a más de 5,000 alumnos que hoy trabajan en empresas líderes.</p>
-    </div>
-  </section>
-
-  <!-- Cursos -->
-  <section class="courses py-5">
-    <div class="container">
-      <h2 class="text-center mb-4 animate-slide">Cursos Populares</h2>
-      <div class="row g-4">
-        <div class="col-md-4">
-          <div class="card h-100 shadow-sm animate-up">
-            <img src="img/web.jpg" class="card-img-top" alt="Programación Web">
-            <div class="card-body">
-              <h5 class="card-title">Programación Web</h5>
-              <p class="card-text">Aprende HTML, CSS y JavaScript desde cero.</p>
-              <a href="/pages/cursos.html" class="btn btn-primary">Más info</a>
+      <h2 class="text-center">Logros</h2>
+      <div class="row mt-4 text-center">
+        <h4>Resultados que respaldan nuestra experiencia</h4>
+        <p>A lo largo de nuestra trayectoria hemos construido una comunidad académica
+          enfocada en la excelencia y el crecimiento constante.</p>
+      </div>
+      <div class="row">
+        <!-- logro 1 -->
+        <div class="col-3">
+          <div class="card animate__animated animate__fadeInTopRight">
+            <div class="card-body text-center">
+              <h5 class="card-title fs-3">
+                <i class="fa-solid fa-user-graduate"></i> + 5,000 
+              </h5>
+              <p class="card-text">
+                Estudiantes formados
+              </p>
             </div>
           </div>
         </div>
-        <div class="col-md-4">
-          <div class="card h-100 shadow-sm animate-up">
-            <img src="img/db.jpg" class="card-img-top" alt="Base de Datos">
-            <div class="card-body">
-              <h5 class="card-title">Base de Datos</h5>
-              <p class="card-text">Domina el modelado y administración de datos.</p>
-              <a href="/pages/cursos.html" class="btn btn-primary">Más info</a>
+        <!-- logro 2 -->
+        <div class="col-3">
+          <div class="card animate__animated animate__fadeInTopRight">
+            <div class="card-body text-center">
+              <h5 class="card-title fs-3">
+                <i class="fa-solid fa-laptop-file"></i> + 80
+              </h5>
+              <p class="card-text">
+                Programas académicos disponibles
+              </p>
             </div>
           </div>
         </div>
-        <div class="col-md-4">
-          <div class="card h-100 shadow-sm animate-up">
-            <img src="img/data.jpg" class="card-img-top" alt="Ciencia de Datos">
-            <div class="card-body">
-              <h5 class="card-title">Ciencia de Datos</h5>
-              <p class="card-text">Analiza información con Python y herramientas modernas.</p>
-              <a href="/pages/cursos.html" class="btn btn-primary">Más info</a>
+        <!-- logro 3 -->
+        <div class="col-3">
+          <div class="card animate__animated animate__fadeInTopRight">
+            <div class="card-body text-center">
+              <h5 class="card-title fs-3">
+                <i class="fa-solid fa-award"></i> 95%
+              </h5>
+              <p class="card-text">
+                Satisfacción en estudiantes
+              </p>
+            </div>
+          </div>
+        </div>
+         <!-- logro 4 -->
+        <div class="col-3">
+          <div class="card animate__animated animate__fadeInTopRight">
+            <div class="card-body text-center">
+              <h5 class="card-title fs-3">
+                <i class="fa-solid fa-person-chalkboard"></i> + 120
+              </h5>
+              <p class="card-text">
+                Docentes con experiencia
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="about">
+    <div class="container py-5">
+      <h2 class="text-center pb-3">¿Por qué elegir Nova Academy?</h2>
+      <!-- primera fila -->
+      <div class="row">
+        <!-- primer motivo -->
+        <div class="col-6">
+          <div class="card">
+            <div class="card-body bg-indigo-100 text-center">
+              <h5 class="card-title">
+                Aprendizaje práctico
+              </h5>
+              <p class="card-text">
+                Nuestros programas priorizan la aplicación de 
+                conocimientos mediante proyectos, casos reales y actividades colaborativas.
+              </p>
+            </div>
+          </div>
+        </div>
+        <!-- segundo motivo -->
+        <div class="col-6">
+          <div class="card">
+            <div class="card-body bg-indigo-100 text-center">
+              <h5 class="card-title">
+                Docentes especializados
+              </h5>
+              <p class="card-text">
+                Contamos con profesionales altamente capacitados que comparten su experiencia 
+                dentro y fuera del aula.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- segunda fila -->
+      <div class="row mt-4">
+        <!-- tercer motivo -->
+        <div class="col-6">
+          <div class="card">
+            <div class="card-body bg-indigo-100 text-center">
+              <h5 class="card-title">
+                Flexibilidad
+              </h5>
+              <p class="card-text">
+                Ofrecemos modalidades presenciales, virtuales e híbridas para adaptarnos 
+                a las necesidades de cada estudiante.
+              </p>
+            </div>
+          </div>
+        </div>
+        <!-- cuarto motivo -->
+        <div class="col-6">
+          <div class="card">
+            <div class="card-body bg-indigo-100 text-center">
+              <h5 class="card-title">
+                Acompañamiento continuo
+              </h5>
+              <p class="card-text">
+                Brindamos asesoría y seguimiento durante todo el proceso de formación para 
+                garantizar una experiencia de aprendizaje integral.
+              </p>
             </div>
           </div>
         </div>
@@ -92,4 +179,5 @@
   <script src="assets/bootstrap/js/bootstrap.bundle.min.js"></script>
   <script src="assets/bootstrap/js/bootstrap.bundle.min.js.map"></script>
 </body>
+
 </html>

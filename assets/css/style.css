@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,100..900;1,100..900&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
 :root {
   --indigo-50: #f3f1ff;
   --indigo-100: #ebe6ff;
@@ -10,6 +12,14 @@
   --indigo-800: #550ccb;
   --indigo-900: #470ca6;
   --indigo-950: #290471;
+}
+
+*{
+  font-family: "Noto Serif", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
 }
 
 /* Colores de fondo */
