@@ -65,6 +65,50 @@
   background-color: var(--azul-950);
 }
 
+/* color de textos */
+.texto-azul-50{
+  color: var(--azul-50);
+}
+
+.texto-azul-100{
+  color: var(--azul-100);
+}
+
+.texto-azul-200{
+  color: var(--azul-200);
+}
+
+.texto-azul-300{
+  color: var(--azul-300);
+}
+
+.texto-azul-400{
+  color: var(--azul-400);
+}
+
+.texto-azul-500{
+  color: var(--azul-500);
+}
+
+.texto-azul-600{
+  color: var(--azul-600);
+}
+
+.texto-azul-700{
+  color: var(--azul-700);
+}
+
+.texto-azul-800{
+  color: var(--azul-800);
+}
+
+.texto-azul-900{
+  color: var(--azul-900);
+}
+
+.texto-azul-950{
+  color: var(--azul-950);
+}
 
 /* Banner */
 .banner {

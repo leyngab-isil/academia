@@ -4,22 +4,58 @@
 <head>
   <meta charset="UTF-8">
   <title>Academia - Inicio</title>
-  <link rel="stylesheet" href="assets/css/menu.css">
-  <link rel="stylesheet" href="assets/css/style.css">
   <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
   <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.rtl.min.css">
   <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css.map">
   <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.rtl.min.css.map">
+  <link rel="stylesheet" href="assets/css/menu.css">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="stylesheet" href="assets/css/swiper.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
     integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
     crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.css" />
 </head>
 
 <body>
   <!-- Menú -->
-  <div id="menu-container" class="sticky-top"></div>
+  <header id="menu-container" class="sticky-top"></header>
 
-  <section class="py-5 bg-azul-50">
+  <section id="banner">
+    <div class="swiper">
+      <!-- Additional required wrapper -->
+      <div class="swiper-wrapper">
+        <!-- Slides -->
+        <!-- slide 1 -->
+        <div class="swiper-slide">
+          <img src="img/slide_1.jpg" alt="slider 1">
+          <div class="title" data-swiper-parallax="-100">Bienvenido</div>
+          <!-- Parallax subtitle -->
+          <div class="subtitle" data-swiper-parallax="-200">Subtitle</div>
+          <!-- And parallax text with custom transition duration -->
+          <div class="text" data-swiper-parallax="-300" data-swiper-parallax-duration="600">
+            <p>Lorem ipsum dolor sit amet, ...</p>
+          </div>
+        </div>
+        <!-- slide 2 -->
+        <div class="swiper-slide">
+          <img src="img/slide_2.jpg" alt="slider 2">
+        </div>
+        <!-- slide 3 -->
+        <div class="swiper-slide">
+          <img src="img/slide_3.jpg" alt="slider 3">
+        </div>
+      </div>
+      <!-- If we need pagination -->
+      <div class="swiper-pagination"></div>
+
+      <!-- If we need navigation buttons -->
+      <div class="swiper-button-prev"></div>
+      <div class="swiper-button-next"></div>
+    </div>
+  </section>
+
+  <section id="historia" class="py-5 bg-azul-50">
     <div class="container">
       <h2 class="text-center mb-5">Historia</h2>
       <div class="row align-items-center">
@@ -43,7 +79,7 @@
     </div>
   </section>
 
-  <section class="py-5">
+  <section id="logros" class="py-5">
     <div class="container">
       <h2 class="text-center">Logros</h2>
       <h6 class="text-center">Resultados que respaldan nuestra enseñanza</h3>
@@ -83,15 +119,77 @@
               <h5 class="card-title"><i class="fa-solid fa-school"></i> 14 años</h5>
               <p class="card-text">Formando profesionales.</p>
             </div>
+            </disv>
           </div>
         </div>
       </div>
-    </div>
   </section>
 
-  <section class="py-5 bg-azul-50">
+  <section id="reconocimientos" class="py-5 bg-azul-50">
     <div class="container">
       <h2 class="text-center">Reconocimientos</h2>
+    </div>
+    <div class="container pt-4">
+      <div class="row align-items-center">
+        <!-- Primera columna -->
+        <div class="col-6">
+          <!-- fila de reconocimientos 1 y 2 -->
+          <div class="row">
+            <!-- reconocimiento 1 -->
+            <div class="col-6">
+              <div class="card">
+                <div class="card-body">
+                  <h5 class="card-title texto-azul-500"><i class="fa-solid fa-trophy"></i> Excelencia Académica</h5>
+                  <p class="card-text">Reconocimiento por mantener altos estándares de enseñanza
+                    y rendimiento estudiantil.</p>
+                </div>
+              </div>
+            </div>
+            <!-- reconocimiento 2 -->
+            <div class="col-6">
+              <div class="card">
+                <div class="card-body">
+                  <h5 class="card-title texto-azul-500"><i class="fa-solid fa-graduation-cap"></i> Ingresos a Universidades</h5>
+                  <p class="card-text">Cientos de estudiantes lograron ingresar a las principales universidades del
+                    país.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- fila de reconocimientos 2 y 3 -->
+          <div class="row pt-3">
+            <!-- reconocimiento 3 -->
+            <div class="col-6">
+              <div class="card">
+                <div class="card-body">
+                  <h5 class="card-title texto-azul-500"><i class="fa-solid fa-chalkboard-user"></i> Docentes Especializados</h5>
+                  <p class="card-text">Equipo conformado por profesionales con amplia experiencia en preparación
+                    preuniversitaria.</p>
+                </div>
+              </div>
+            </div>
+            <!-- reconocimiento 4 -->
+            <div class="col-6">
+              <div class="card">
+                <div class="card-body">
+                  <h5 class="card-title texto-azul-500"><i class="fa-solid fa-star"></i> Confianza de las Familias</h5>
+                  <p class="card-text">Miles de padres y estudiantes nos eligen cada año para alcanzar sus metas
+                    académicas.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-6">
+          <h3>Reconocimientos que respaldan nuestra excelencia</h3>
+          <h5>Más que resultados, construimos una trayectoria basada en 
+            la calidad educativa y el compromiso con cada estudiante.</h5>
+          <p>Durante nuestra trayectoria hemos sido reconocidos por nuestra dedicación a la formación 
+            académica, la excelencia de nuestros docentes y los logros alcanzados por nuestros estudiantes. 
+            Cada reconocimiento refleja el esfuerzo conjunto de nuestra comunidad educativa y nos impulsa a 
+            seguir formando futuros profesionales.</p>
+        </div>
+      </div>
     </div>
   </section>
 
@@ -100,8 +198,10 @@
 
   <script src="assets/js/menu.js"></script>
   <script src="assets/js/footer.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.js"></script>
   <script src="assets/bootstrap/js/bootstrap.bundle.min.js"></script>
   <script src="assets/bootstrap/js/bootstrap.bundle.min.js.map"></script>
+  <script src="assets/js/swiper.js"></script>
 </body>
 
 </html>
