@@ -1,5 +1,122 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap');
 
+:root {
+  --color-turquesa-50: #effefa;
+  --color-turquesa-100: #c7fff3;
+  --color-turquesa-200: #7affe4;
+  --color-turquesa-300: #50f8dc;
+  --color-turquesa-400: #1de4c9;
+  --color-turquesa-500: #04c8b1;
+  --color-turquesa-600: #00a191;
+  --color-turquesa-700: #058075;
+  --color-turquesa-800: #0a655e;
+  --color-turquesa-900: #0d544f;
+  --color-turquesa-950: #003331;
+}
+
+/* Clases de color principal de fondo  */
+
+.bg-turquesa-50{
+  background-color: var(--color-turquesa-50);
+  color: black;
+}
+
+.bg-turquesa-100{
+  background-color: var(--color-turquesa-100);
+  color: black;
+}
+
+.bg-turquesa-200{
+  background-color: var(--color-turquesa-200);
+  color: black;
+}
+
+.bg-turquesa-300{
+  background-color: var(--color-turquesa-300);
+  color: black;
+}
+
+.bg-turquesa-400{
+  background-color: var(--color-turquesa-400);
+  color: black;
+}
+
+.bg-turquesa-500{
+  background-color: var(--color-turquesa-500);
+  color: black;
+}
+
+.bg-turquesa-600{
+  background-color: var(--color-turquesa-600);
+  color: white;
+}
+
+.bg-turquesa-700{
+  background-color: var(--color-turquesa-700);
+  color: white;
+}
+
+.bg-turquesa-800{
+  background-color: var(--color-turquesa-800);
+  color: white;
+}
+
+.bg-turquesa-900{
+  background-color: var(--color-turquesa-900);
+  color: white;
+}
+
+.bg-turquesa-950{
+  background-color: var(--color-turquesa-950);
+  color: white;
+}
+
+/* Clases de color principal de texto  */
+
+.text-color-turquesa-50{
+  color: var(--color-turquesa-50);
+}
+
+.text-color-turquesa-100{
+  color: var(--color-turquesa-100);
+}
+
+.text-color-turquesa-200{
+  color: var(--color-turquesa-200);
+}
+
+.text-color-turquesa-300{
+  color: var(--color-turquesa-300);
+}
+
+.text-color-turquesa-400{
+  color: var(--color-turquesa-400);
+}
+
+.text-color-turquesa-500{
+  color: var(--color-turquesa-500);
+}
+
+.text-color-turquesa-600{
+  color: var(--color-turquesa-600);
+}
+
+.text-color-turquesa-700{
+  color: var(--color-turquesa-700);
+}
+
+.text-color-turquesa-800{
+  color: var(--color-turquesa-800);
+}
+
+.text-color-turquesa-900{
+  color: var(--color-turquesa-900);
+}
+
+.text-color-turquesa-950{
+  color: var(--color-turquesa-950);
+}
+
 *{
   font-family: "Noto Serif", serif;
   font-optical-sizing: auto;
@@ -25,22 +142,3 @@
 .footer a:hover {
   text-decoration: underline;
 }
-
-.bg-indigo-100{
-  background-color: #ebe6ff;
-}
-
-.bg-indigo-200{
-  background-color: #d8d0ff;
-}
-
-.bg-indigo-400{
-  background-color: #9b7bff;
-  color: white;
-}
-
-.bg-indigo-500{
-  background-color: #7d46ff;
-  color: white;
-}
-
