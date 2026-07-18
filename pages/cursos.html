@@ -13,12 +13,89 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
         integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 
 <body>
     <!-- Menú -->
     <div id="menu-container" class="sticky-top"></div>
 
+    <section>
+        <div class="container py-5">
+            <h2 data-aos="fade-up" class="text-center texto-azul-800 fw-bold">Nuestros Cursos</h2>
+            <p data-aos="fade-up" class="text-center">
+                Impulsa tu desarrollo profesional con programas diseñados por expertos. Aprende con una metodología práctica, docentes especializados y contenido actualizado.
+            </p>
+            <!-- primer curso -->
+            <div data-aos="fade-down-right" class="row m-5 p-5 bg-azul-50 rounded-3 shadow-lg">
+                <img class="col-4 rounded-5" src="/img/curso1.jpg" alt="Marketing digital">
+                <div class="col-8">
+                    <h4 class="texto-azul-600">Marketing Digital</h4>
+                    <p>
+                        Aprende a crear estrategias digitales, gestionar redes sociales, campañas publicitarias y análisis de resultados para potenciar cualquier negocio.
+                    </p>
+                    <ul>
+                        <li><strong>Duración:</strong> 8 semanas</li>
+                        <li><strong>Modalidad:</strong> Online / Presencial</li>
+                        <li><strong>Nivel:</strong> Básico - Intermedio</li>
+                    </ul>
+                    <div class="d-grid mx-5">
+                        <button class="btn btn-primary">Ver más</button>
+                    </div>
+                </div>
+            </div>
+            <!-- seugundo curso -->
+            <div data-aos="fade-down-left" class="row m-5 p-5 bg-azul-50 rounded-3 shadow-lg">
+                <div class="col-8">
+                    <h4 class="texto-azul-600">Diseño Gráfico</h4>
+                    <p>
+                        Domina herramientas profesionales como Photoshop, Illustrator y Figma para desarrollar proyectos creativos desde cero.
+                    </p>
+                    <ul>
+                        <li><strong>Duración:</strong> 10 semanas</li>
+                        <li><strong>Modalidad:</strong> Online</li>
+                        <li><strong>Nivel:</strong> Todos los niveles</li>
+                    </ul>
+                    <div class="d-grid mx-5">
+                        <button class="btn btn-primary">Ver más</button>
+                    </div>
+                </div>
+                <img class="col-4" src="/img/curso2.jpg" alt="Diseño gráfico">
+            </div>
+        </div>
+    </section>
+
+    <section class="bg-azul-50 py-5">
+        <div class="container text-center">
+            <h2 data-aos="fade-up" class="texto-azul-800">¿Por qué estudiar con nosotros?</h2>
+            <div class="mt-5">
+                <p data-aos="zoom-in">
+                    <i class="fa-solid fa-circle-check texto-azul-500"></i>
+                    Docentes con experiencia profesional.
+                </p>
+                <p data-aos="zoom-in">
+                    <i class="fa-solid fa-circle-check texto-azul-500"></i>
+                    Clases prácticas enfocadas en casos reales.
+                </p>
+                <p data-aos="zoom-in">
+                    <i class="fa-solid fa-circle-check texto-azul-500"></i>
+                    Certificación al finalizar.
+                </p>
+                <p data-aos="zoom-in">
+                    <i class="fa-solid fa-circle-check texto-azul-500"></i>
+                    Horarios flexibles.
+                </p>
+                <p data-aos="zoom-in">
+                    <i class="fa-solid fa-circle-check texto-azul-500"></i>
+                    Material de estudio incluido.
+                </p>
+                <p data-aos="zoom-in">
+                    <i class="fa-solid fa-circle-check texto-azul-500"></i>
+                    Acompañamiento durante todo el curso.
+                </p>
+            </div>
+        </div>
+    </section>
 
     <!-- Footer -->
     <div id="footer-container"></div>
@@ -26,5 +103,10 @@
     <script src="../assets/js/menu.js"></script>
     <script src="../assets/js/footer.js"></script>
     <script src="../assets/bootstrap/js/bootstrap.bundle.min.js"></script>
-    <script src="../assets/bootstrap/js/bootstrap.bundle.min.js.map"></script></body>
+    <script src="../assets/bootstrap/js/bootstrap.bundle.min.js.map"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+</body>
 </html>
